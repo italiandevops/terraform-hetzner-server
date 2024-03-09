@@ -7,7 +7,7 @@ resource "hcloud_firewall" "firewall01" {
     protocol  = "tcp"
     port      = "22"
     source_ips = [
-      "XXX.XXX.XXX.XXX"
+      "XXX.XXX.XXX.XXX/XX"
     ]
   }
   # HTTP
